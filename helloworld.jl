@@ -1,1 +1,6 @@
-println("hello world")
+function helloworld()
+    println("hello world")
+end
+
+helloworld()
+
