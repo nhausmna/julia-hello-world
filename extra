@@ -1,0 +1,14 @@
+appC(appC(appC(lamC(["x", "y"] lamC(["c"] lamC( ["d"] appC(
+       (idC '<=)
+       (list
+        appC( (idC 'x) (list (idC 'c)))
+        appC( (idC 'y) (list (idC 'd))))))))
+   (list
+    lamC(
+     '(a)
+     appC( (idC '/) (list (numC 10) (idC 'a))))
+    lamC(
+     '(b)
+     appC( (idC '*) (list (idC 'b) (numC 2))))))
+  (list (numC 2)))
+ (list (numC 1)))
